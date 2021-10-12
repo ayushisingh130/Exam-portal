@@ -1,10 +1,11 @@
 import React from 'react'
+import { withRouter } from 'react-router-dom';
 import Questions from '../Question/Questions'
 import QNumbers from '../QuestionNumbers/QNumbers'
 import Topbar from '../Topbar/Topbar'
 import "./Test.css"
 
-export default function Test() {
+function Test() {
     return (
         <>
          <Topbar/>
@@ -19,3 +20,5 @@ export default function Test() {
         </>
     )
 }
+
+export default withRouter(Test);

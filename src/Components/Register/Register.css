@@ -17,22 +17,9 @@ a {
     background-color: #fafafa;
 }
 .registerWrapper{
-    width: 60%;
+    width: 40%;
     background-color: white;
     box-shadow: 0px 3px 18px lightgrey;
-}
-.registerWrapper2{
-   display: flex;
-}
-.registerLeft{
-   width: 45%;
-}
-.registerRight{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 55%;
-    margin-right: 20px;
 }
 .registerHeading{
     text-align: center;

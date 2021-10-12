@@ -20,15 +20,12 @@ const Login = (props) => {
         password: password,
       };
       setAllCandidate([...allCandidate, newEntry]);
-      console.log(allCandidate);
-      // setEmail("");
-      // setPassword("");
+      // console.log(allCandidate);
       props.history.push('/instruction');
-
     }
     else
     {
-        alert("Please fill all details")
+        alert("PLEASE FILL ALL DETAILS")
     }
   };
   
@@ -43,6 +40,7 @@ const Login = (props) => {
                 <img className="user_svg" src="assets/user.svg" />
                 <input
                   type="text"
+                  minLength="13"
                   className="input1"
                   placeholder="Roll Number"
                   autoComplete="off"
@@ -92,7 +90,7 @@ const Login = (props) => {
                </div> */}
         </div>
         <div className="img_Righside">
-          <img className="girl_img" src="assets/Girl.png" alt="Graphic" />
+          <img className="girl_img" src="assets/illustration2.png" alt="Graphic" />
         </div>
       </div>
     </>

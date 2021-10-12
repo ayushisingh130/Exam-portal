@@ -8,8 +8,6 @@ export default function Register() {
         <div className="register">
           <div className="registerWrapper">
           <h2 className="registerHeading">Register Here</h2>
-          <div className="registerWrapper2" >
-          <div className="registerLeft">
              <form action="" method="" className="registerForm">
                <div className="registerFields">
                     <label className="registerLabel">Name</label>
@@ -63,13 +61,8 @@ export default function Register() {
                </div>
              </form>
              <div id="login">
-             Already Registered?<a href="">Login Here</a>
+             Already Registered?<a href="#">Login Here</a>
              </div>  
-            </div>
-            <div className="registerRight">
-                  <img src="assets/illustration2.png" alt="no image"/>
-            </div>
-          </div>
           </div>
         </div>
         </>

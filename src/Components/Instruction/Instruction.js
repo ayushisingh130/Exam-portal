@@ -1,8 +1,9 @@
 import React, {useState} from 'react'
 import "./Instruction.css"
 import {NavLink} from "react-router-dom"
+import { withRouter } from 'react-router-dom';
 
-export default function Instruction() {
+function Instruction() {
   const [language,setLanguage]=useState();
     return (
   <>
@@ -51,3 +52,6 @@ export default function Instruction() {
   </>
     )
 }
+
+
+export default withRouter(Instruction);
