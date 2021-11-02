@@ -10,8 +10,9 @@ import Admin from "./Components/Admin/Admin";
 import ProtectedRoutes from "./Components/ProtectedRoutes.js/ProtectedRoutes";
 
 function App() {
-  const[isAuth,setisAuth]=useState(false);
-  const[isAdmin,setisAdmin]=useState(false);
+  const[isAuth,setisAuth]=useState(true);
+  const[isAdmin,setisAdmin]=useState(true);
+  
 
   return (
     <>
